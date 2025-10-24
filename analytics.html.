@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MapOps — Geospatial Analytics for Revenue Growth</title>
+  <meta name="description" content="MapOps helps sales teams use geospatial analytics to drive territory optimization, market penetration, and revenue growth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f13;
+      --card: #11161c;
+      --ink: #e7effa;
+      --muted: #9fb0c6;
+      --brand: #5eead4;
+      --radius: 16px;
+      --line: rgba(255,255,255,.08);
+      --shadow: 0 4px 12px rgba(0,0,0,0.35);
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0 24px 64px;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    h1 {
+      color: var(--brand);
+      font-size: 2.4rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+
+    p.subhead {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background-color: var(--card);
+      border-left: 4px solid var(--brand);
+      border-radius: var(--radius);
+      padding: 20px;
+      width: 300px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+    }
+
+    .title {
+      color: var(--brand);
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p {
+      line-height: 1.5;
+      margin: 6px 0;
+    }
+
+    strong {
+      color: var(--muted);
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: var(--brand);
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 10px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+    }
+
+    nav a:hover {
+      border-color: var(--brand);
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Geospatial Analytics for Revenue Growth</h1>
+    <p class="subhead">Twelve proven spatial analysis techniques that drive sales performance and territory clarity.</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <h3 class="title">Territory Optimization</h3>
+      <p><strong>Description:</strong> Optimize territory boundaries by workload, potential, and geography.</p>
+      <p><strong>Value:</strong> Increase efficiency and coverage; balance rep workloads.</p>
+      <p><strong>Example:</strong> Balance territories to maximize rep productivity.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Market Penetration Analysis</h3>
+      <p><strong>Description:</strong> Measure customer density vs. population to find underserved markets.</p>
+      <p><strong>Value:</strong> Identify high-potential, low-penetration growth zones.</p>
+      <p><strong>Example:</strong> Locate zip codes with high opportunity but low sales.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Customer Clustering</h3>
+      <p><strong>Description:</strong> Group customers by geography and attributes for campaigns.</p>
+      <p><strong>Value:</strong> Target localized promotions and discover neighborhood patterns.</p>
+      <p><strong>Example:</strong> Identify clusters of similar buyers for localized outreach.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Site Selection</h3>
+      <p><strong>Description:</strong> Evaluate new site locations using demographics and competition.</p>
+      <p><strong>Value:</strong> Minimize expansion risk; rank potential cities or regions.</p>
+      <p><strong>Example:</strong> Score and select the best area for a new flagship location.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Competitive Intelligence</h3>
+      <p><strong>Description:</strong> Map competitor locations and market share distribution.</p>
+      <p><strong>Value:</strong> Spot competitor strongholds; uncover whitespace opportunities.</p>
+      <p><strong>Example:</strong> Map competitor dominance and identify open market areas.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Catchment Area Analysis</h3>
+      <p><strong>Description:</strong> Define drive-time and service zones to optimize coverage.</p>
+      <p><strong>Value:</strong> Improve service reach and ensure area balance.</p>
+      <p><strong>Example:</strong> Define 15-minute drive zones for each branch.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Sales Performance Mapping</h3>
+      <p><strong>Description:</strong> Visualize revenue, quota attainment, and trends geographically.</p>
+      <p><strong>Value:</strong> Quickly spot high/low performance zones.</p>
+      <p><strong>Example:</strong> Create a heatmap of sales revenue per territory.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Proximity Analysis</h3>
+      <p><strong>Description:</strong> Measure distance to customers and prospects for routing.</p>
+      <p><strong>Value:</strong> Prioritize nearby accounts; improve conversion rates.</p>
+      <p><strong>Example:</strong> Find all prospects within 5 miles of top clients.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Demographic Profiling</h3>
+      <p><strong>Description:</strong> Overlay demographic data on sales territories for targeting.</p>
+      <p><strong>Value:</strong> Match products to income or lifestyle segments.</p>
+      <p><strong>Example:</strong> Align marketing spend with high-income neighborhoods.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Expansion Opportunity Scoring</h3>
+      <p><strong>Description:</strong> Rank regions by growth potential using composite metrics.</p>
+      <p><strong>Value:</strong> Focus investment where ROI potential is highest.</p>
+      <p><strong>Example:</strong> Score metro areas for expansion readiness.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Route Optimization</h3>
+      <p><strong>Description:</strong> Calculate efficient travel routes for field reps.</p>
+      <p><strong>Value:</strong> Reduce travel costs; increase visit frequency.</p>
+      <p><strong>Example:</strong> Optimize daily call routes by geography.</p>
+    </div>
+
+    <div class="card">
+      <h3 class="title">Spatial Correlation Analysis</h3>
+      <p><strong>Description:</strong> Detect relationships between sales and location-based factors.</p>
+      <p><strong>Value:</strong> Predict outcomes and identify key geographic drivers.</p>
+      <p><strong>Example:</strong> Correlate store sales with foot-traffic intensity.</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="why.html">Why MapOps</a>
+    <a href="analytics.html">Analytics</a>
+  </nav>
+</body>
+</html>
